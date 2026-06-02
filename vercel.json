@@ -1,0 +1,8 @@
+{
+  "outputDirectory": "dist",
+  "buildCommand": "npm run build",
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/",      "destination": "/index.html" }
+  ]
+}
